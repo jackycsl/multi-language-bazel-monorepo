@@ -1,0 +1,11 @@
+load("@python_deps//:requirements.bzl", "requirement")
+
+py_binary(
+    name = "python_web",
+    srcs = ["python_web.py"],
+    main = "python_web.py",
+    deps = [
+        "//projects/python_calculator:calculator",
+        requirement("Flask"),
+    ],
+)

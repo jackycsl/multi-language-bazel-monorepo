@@ -1,0 +1,11 @@
+bazel-bin
+bazel-multi-language-bazel-monorepo
+bazel-out
+bazel-testlogs
+
+__pycache__
+
+.idea
+.vscode
+
+node_modules
